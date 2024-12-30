@@ -1,0 +1,50 @@
+{
+  "expo": {
+    "name": "TaskNote",
+    "slug": "tasknote",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "dark",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#121212"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "io.stealthstealler.tasknote"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#121212"
+      },
+      "package": "io.stealthstealler.tasknote",
+      "softwareKeyboardLayoutMode": "pan"
+    },
+    "androidStatusBar": {
+      "backgroundColor": "#121212",
+      "barStyle": "light-content",
+      "translucent": false
+    },
+    "androidNavigationBar": {
+      "backgroundColor": "#121212"
+    },
+    "plugins": [
+      "expo-router"
+    ],
+    "scheme": "tasknote",
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "4bb47ef8-d948-4044-9d3c-c81ea56bdc77"
+      }
+    }
+  }
+}
